@@ -13,6 +13,11 @@ h1 {
     color: blue;
 }
 
+h2 {
+    font-size: 40px;
+    color: orange;
+}
+
 h3 {
     font-size: 30px;
 }
@@ -21,13 +26,14 @@ h3 {
 
     width: 60%;
     padding-left: 30px;
+
 }
 
 .red {
     color: red;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 100px;
 }
@@ -52,5 +58,28 @@ section {
 
 .dream {
     counter-reset: 4px;
-    background-color: aqua;
+    background-color: black;
+}
+
+.dev {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+
+}
+
+#full {
+    border-left: 7px solid tomato;
+}
+
+#baby {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
+    color: blueviolet;
 }
