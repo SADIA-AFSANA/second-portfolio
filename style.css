@@ -29,6 +29,7 @@ h3 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width img {
@@ -47,4 +48,9 @@ section {
 .top-banner {
     background-image: url(top-banner.png);
 
+}
+
+.dream {
+    counter-reset: 4px;
+    background-color: aqua;
 }
